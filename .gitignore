@@ -35,3 +35,7 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+/typings/
+/web/**/*.js
+/web/**/*.js.map
+/yarn.lock
