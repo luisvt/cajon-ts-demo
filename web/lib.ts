@@ -1,6 +1,11 @@
-module.exports = {
-  template: require('./template'),
-  model: require('./model'),
-  controller: require('./controller'),
-  view: require('./view')
+import template = require('./template');
+import model = require('./model');
+import controller = require('./controller');
+import view  = require('./view');
+
+export = {
+  template: template,
+  model: model,
+  controller: controller,
+  view: view
 };

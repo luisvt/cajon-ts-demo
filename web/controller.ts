@@ -1,6 +1,6 @@
-var model = require('./model');
+import model = require('./model');
 
-module.exports = {
+export = {
   control: function () {
     return 'controller is ready';
   },

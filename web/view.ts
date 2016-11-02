@@ -1,11 +1,11 @@
-var model = require('./model'),
-  helper = require('./util/helper'),
-  $ = require('jquery');
+import model = require('./model');
+import helper = require('./util/helper');
+import $ = require('jquery');
 
 console.log('__dirname: ' + __dirname);
 console.log('__filename: ' + __filename);
 
-module.exports = {
+export = {
   render: function () {
     return 'view.render() works';
   },

@@ -1,4 +1,4 @@
-module.exports = {
+export = {
   compile: function () {
     return 'template.compile() works';
   }

@@ -1,4 +1,4 @@
-module.exports = {
+export = {
   create: function () {
     return 'module.create() works';
   }
